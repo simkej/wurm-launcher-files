@@ -1,5 +1,5 @@
 
-# Maintainer: Simon Kejonen <Simon.m.kejonen97@gmail.com>
+# Maintainer: Simon <Sallad9707@gmail.com>
 pkgname=wurm-launcher
 pkgver=1.0
 pkgrel=1
