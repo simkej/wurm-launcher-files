@@ -8,7 +8,7 @@ arch=(x86_64)
 url="https://www.wurmonline.com/"
 license=('unknown')
 source=("https://www.wurmonline.com/client/wurmlauncher.tar.gz")
-md5sums=(SKIP)
+md5sums=('db194b15a6182c0b48f11bcefedbac55')
 
 package() {
 	mkdir -p $pkgdir/usr/share
