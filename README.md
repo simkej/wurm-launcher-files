@@ -1,2 +1,2 @@
-# wurm-launcher
-PKGBUILD for the Wurm Online launcher for easy installation via pacman
+# wurm-launcher-files
+Files to use with the AUR package
