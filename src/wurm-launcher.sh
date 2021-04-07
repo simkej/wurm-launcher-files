@@ -2,11 +2,11 @@
 
 pkgname=wurm-launcher
 
-if [[ ! -d "$HOME/.$pkgname" ]]; then
-    mkdir -p "$HOME/.$pkgname"
-    cp -rn /usr/share/"$pkgname"/WurmLauncher "$HOME/.$pkgname"
+if [[ ! -d "$XDG_DATA_HOME/.$pkgname" ]]; then
+    mkdir -p "$XDG_DATA_HOME/.$pkgname"
+    cp -rn /usr/share/"$pkgname"/WurmLauncher "$XDG_DATA_HOME/.$pkgname"
 fi
 
-cd "$HOME/.$pkgname"
+cd "$XDG_DATA_HOME/.$pkgname"
 ./WurmLauncher
 
