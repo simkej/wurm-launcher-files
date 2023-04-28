@@ -2,7 +2,7 @@
 Name=Wurm Online
 GenericName=Wurm Online
 Comment=A sandbox mmorpg
-Exec=wurm-launcher.sh
+Exec=env GDK_BACKEND=x11 wurm-launcher.sh
 Icon=/usr/share/wurm-launcher/wurm-launcher.png
 Terminal=false
 Type=Application
